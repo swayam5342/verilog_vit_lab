@@ -17,7 +17,6 @@ module tb_MUX_4to1;
         sel = 2'b01; #10;
         sel = 2'b10; #10;
         sel = 2'b11; #10;
-
         $stop;
     end
 endmodule
